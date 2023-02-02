@@ -1,0 +1,22 @@
+# Check that adding nonexistent file gets correct error.
+
+> init
+<<<
+
+> add f.txt
+File does not exist.
+<<<
+
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
